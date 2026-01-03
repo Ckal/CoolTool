@@ -1,0 +1,18 @@
+name: CoolTool
+type: gradio-space
+sdk: gradio
+
+metadata:
+  space_id: Chris4K/CoolTool
+  original_url: https://huggingface.co/spaces/Chris4K/CoolTool
+
+deploy:
+  targets:
+    - public-repo
+    - huggingface
+
+build:
+  command: bash build.sh
+
+test:
+  command: echo "Tests not yet implemented"
